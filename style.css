@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+background-color: #341f97;
+}
+.welcome-text{
+
+width:400px;
+
+
+}
+.welcome-form input,
+.welcome-form button{
+display: block;
+width:100%;
+}
+.welcome-form input{
+margin-bottom: 15px;
+background-color: transparent;
+border: none;
+border-bottom: 2px solid #ffffff;
+color: #fff;
+font-size: 30px;
+text-align: center;
+}
+.welcome-form button{
+    font-size: 22px;
+    padding: 20px 0;
+    background-color: white;
+    color: #341f97 ;
+    border: none;
+    border-radius: 100px;
+    transition: 0.4s all;
+}
+.welcome-form button:hover{
+transform: translatey(-5px);
+cursor: pointer;
+}
+.welcome-form input:focus,
+.welcome-form button:focus{
+    outline: none;
+}
+.quiz{
+    display: grid;
+    grid-template-rows: 60px auto;
+    width: 800px;
+    height: 500px;
+    background-color:#fff;
+ 
+}
+.quiz_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 3);
+    z-index: 1;
+}
+.quiz_body{
+  
+        padding:30px ;
+       background-color: #ecf0f1;
+} 
+.quiz_user{
+    display: flex;
+   align-items: center;
+   padding-left: 30px;
+}
+.quiz_timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #341f97;
+    color: white;
+    padding: 0 30px;
+}
+.option_group{
+    list-style-type:none;
+    margin: 30px 0;
+}
+.option{
+    background-color: #fff;
+    width: 300px;
+    padding:15px 20px;
+    margin-bottom: 15px;
+ border-radius: 100px;
+ border: 2px solid transparent;
+}
+.option:hover{
+cursor: pointer;
+border: 2px solid #341f97;
+color: #341f97;
+}
+.btn-next{
+    padding: 15px 35px;
+    border-radius: 27px ;
+    border-color: solid none;
+    background-color:#341f97 ;
+    color: #fff;
+    border: none;
+    transition: 0.4s;
+}
+.btn-next:hover{
+cursor: pointer;
+background-color: #fff;
+color: #341f97;
+box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+}
+.active{
+background-color: #341f97;
+color: #fff !important;
+
+}
+.award_icon{
+    font-size: 400px;
+    color: #fff;
+}
+.username,
+.user_points,
+.user_time{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+.share_icon{
+font-size:100px;
+color:red;
+padding-left: 100px;
+
+}
+.share_icon:hover{
+cursor: pointer;
+color: white;
+
+}
+.copybtn{
+    border-radius: 10px;
+    border-style: none;
+    background-color:rgb(241, 53, 53) ;
+    font-size: 20px;
+    color: #fff;
+margin-left: 70px;
+padding:6px 30px;
+    
+}
+.copybtn:hover{
+    cursor: pointer;
+
+
+}
